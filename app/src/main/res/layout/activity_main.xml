@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:text="Name: Ridge Francis"
+        android:textColor="#FFFF33"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/usernameID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterUsername" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/passwordID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EnterPassword"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/usernameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/UsernameObj"
+        android:textColor="#ff69b4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/passwordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="@string/PassObj"
+        android:textColor="#00ff00"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/userPassButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UsernamePassObj"
+        android:textColor="#ff0000"
+        android:textStyle="bold" />
+</LinearLayout>
+

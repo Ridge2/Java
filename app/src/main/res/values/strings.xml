@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="EnterUsername">Enter Username</string>
+    <string name="EnterPassword">Enter Password</string>
+    <string name="UsernameObj">Username</string>
+    <string name="UsernamePassObj">User-Pass</string>
+    <string name="PassObj">Password</string>
+</resources>
